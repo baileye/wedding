@@ -93,20 +93,30 @@
 					<div class="display-t">
 						<div class="display-tc animate-box" data-animate-effect="fadeIn">
 							<h1>Mariluz &amp; Eoin</h1>
-							<h2>We Are Getting Married</h2>
+							<h2>We Are Getting Married!</h2>
 							<div class="simply-countdown simply-countdown-one"></div>
-							<p><add-to-calendar-button
-  name="Mariluz and Eoin's Wedding"
-  options="'Apple','Google', 'Outlook.com', 'Microsoft365'"
-  location="Hacienda de Cardenal, Toledo, Spain"
-  startDate="2023-06-10"
-  endDate="2023-06-11"
-  startTime="18:00"
-  endTime="03:30"
-  timeZone="Europe/Madrid"
-></add-to-calendar-button></p>
 							
-							<p><a href="#" class="btn btn-default btn-sm">Save the date</a></p>
+							<h2>June 10th 2023. Toledo, Spain</h2>
+							<!-- https://add-to-calendar-button.com/en/configuration#style-parameters -->
+							
+							<!-- <div>
+								<p>Save the date and add to your calendar by clicking below
+								<add-to-calendar-button
+									name="Mariluz and Eoin's Wedding"
+									options="'Apple','Google', 'Outlook.com', 'Microsoft365'"
+									location="Hacienda de Cardenal, Toledo, Spain"
+									startDate="2023-06-10"
+									endDate="2023-06-11"
+									startTime="18:00"
+									endTime="03:30"
+									timeZone="Europe/Madrid"
+									buttonsList
+									hideTextLabelButton
+									buttonStyle="round"
+  								lightMode="bodyScheme"
+							></add-to-calendar-button>
+							</p>
+						</div> -->
 						</div>
 					</div>
 				</div>
@@ -607,14 +617,7 @@
         month: d.getMonth() + 1,
         day: d.getDate(),
 				hours: d.getHours(),
-				minutes: d.getMinutes(),
-				words: {
-					days: 'dia',
-					hours: 'hour',
-					minutes: 'minute',
-					seconds: 'second',
-					pluralLetter: 's'
-				}
+				minutes: d.getMinutes()
     });
 
     //jQuery example
