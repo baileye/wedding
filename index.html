@@ -597,22 +597,31 @@
 	<script src="js/main.js"></script>
 
 	<script>
-    var d = new Date(new Date('2023-06-10T18:30:00'));
+    var d = new Date(new Date('2023-06-10T18:30:00Z'));
 
     // default example
     simplyCountdown('.simply-countdown-one', {
         year: d.getFullYear(),
         month: d.getMonth() + 1,
-        day: d.getDate()
+        day: d.getDate(),
+				hours: d.getHours(),
+				minutes: d.getMinutes(),
+				words: {
+					days: 'dia',
+					hours: 'hour',
+					minutes: 'minute',
+					seconds: 'second',
+					pluralLetter: 's'
+				}
     });
 
     //jQuery example
-    $('#simply-countdown-losange').simplyCountdown({
-        year: d.getFullYear(),
-        month: d.getMonth() + 1,
-        day: d.getDate(),
-        enableUtc: false
-    });
+    // $('#simply-countdown-losange').simplyCountdown({
+    //     year: d.getFullYear(),
+    //     month: d.getMonth() + 1,
+    //     day: d.getDate(),
+    //     enableUtc: false
+    // });
 </script>
 
 	</body>
