@@ -38,6 +38,9 @@
 	<!-- Theme style  -->
 	<link rel="stylesheet" href="css/style.css">
 
+	<!-- Add to calendar button -->
+	<script src="https://cdn.jsdelivr.net/npm/add-to-calendar-button@2" async defer></script>
+
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
 	<!-- FOR IE9 below -->
@@ -90,6 +93,25 @@
 							<h2>¡Nos casamos!</h2>
 							<div class="simply-countdown simply-countdown-one"></div>
 							<h2>Sábado 10 de junio de 2023 - Toledo</h2>
+
+							<!-- https://add-to-calendar-button.com/en/configuration#style-parameters -->
+							<div class="save-date">
+								<add-to-calendar-button
+									name="Boda de Mariluz y Eoin"
+									options="'Apple','Google', 'Outlook.com'"
+									location="Hacienda de Cardenal, Toledo, Spain"
+									startDate="2023-06-10"
+									endDate="2023-06-11"
+									startTime="18:00"
+									endTime="03:30"
+									timeZone="Europe/Madrid"
+									buttonsList
+									hideTextLabelButton
+									buttonStyle="round"
+  								lightMode="bodyScheme"
+								></add-to-calendar-button>
+							</div>
+							<p class="text-highlight">Guarda la fecha en tu calendario</p>
 						</div>
 					</div>
 				</div>
