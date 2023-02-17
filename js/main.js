@@ -221,7 +221,7 @@
 		burgerMenu();
 		contentWayPoint();
 		dropdown();
-		testimonialCarousel();
+		// testimonialCarousel();
 		goToTop();
 		loaderPage();
 		counter();

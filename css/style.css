@@ -16,6 +16,12 @@
   background-position: center;
 }
 
+@media only screen and (min-device-width: 0px) and (max-device-width: 720px) {
+  .simply-seconds-section, .simply-minutes-section {
+    visibility: hidden;
+  }
+}
+
 
 @font-face {
   font-family: 'icomoon';
