@@ -1,3 +1,10 @@
+/* Some custom stuff... */
+.darker-background {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+
+
 @font-face {
   font-family: 'icomoon';
   src: url("../fonts/icomoon/icomoon.eot?srf3rx");
