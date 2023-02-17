@@ -12,6 +12,10 @@
   color: white;
 }
 
+#fh5co-header.fh5co-cover {
+  background-position: center;
+}
+
 
 @font-face {
   font-family: 'icomoon';
