@@ -3,6 +3,14 @@
   background-color: rgba(0, 0, 0, 0.4);
 }
 
+.save-date {
+  display: flex;
+  justify-content: center;
+}
+
+.text-highlight {
+  color: white;
+}
 
 
 @font-face {
